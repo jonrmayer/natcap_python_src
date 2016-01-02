@@ -28,8 +28,8 @@ if (pkg_resources.parse_version(pygeoprocessing.__version__) <
                       'but version {found_ver} was found').format(
                           req_version=PYGEOPROCESSING_REQUIRED,
                           found_ver=pygeoprocessing.__version__))
-
-__version__ = natcap.versioner.get_version('natcap.invest')
+# Have to meddle with versioner since using raw source code rather than mercurial
+__version__ = '3.2.0' #natcap.versioner.get_version('natcap.invest')
 
 
 def is_release():
