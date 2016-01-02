@@ -44,8 +44,9 @@ RUN pip install \
 RUN wget https://www.dropbox.com/s/ufvffv2lpbn21vx/dbfpy-2.3.0.tar.gz && pip install dbfpy-2.3.0.tar.gz
 
 RUN pip install \
-    pygeoprocessing==0.3.0a8 \
-    natcap.versioner 
+    natcap.versioner \
+    pygeoprocessing==0.3.0a8 
+    
 
 RUN mkdir /appdata
 
