@@ -22,7 +22,6 @@ RUN apt-get install -y \
         python-qt4 \
         python-numpy \
         python-scipy \
-        libgeos-3.3.3 \
         libgeos-dev
 
 # install pip and needed python packages
