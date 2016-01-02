@@ -244,7 +244,8 @@ def execute(args):
 
     """
     #multiprocess cleanup
-    args.pop("_process_pool")
+    #comment this out since it is not working on ubuntu - JM
+    #args.pop("_process_pool")
 
     #disabling protected predictor
     args["protected"] = False
