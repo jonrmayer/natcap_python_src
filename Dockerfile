@@ -38,14 +38,14 @@ RUN pip install \
     nose \
     tox \
     fabric \
-    mock
+    mock \
+    natcap.versioner 
 
 
 RUN wget https://www.dropbox.com/s/ufvffv2lpbn21vx/dbfpy-2.3.0.tar.gz && pip install dbfpy-2.3.0.tar.gz
 
 RUN pip install \
-    natcap.versioner \
-    pygeoprocessing==0.3.0a8 
+        pygeoprocessing==0.3.0a8 
     
 
 RUN mkdir /appdata
