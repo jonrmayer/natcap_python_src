@@ -20,7 +20,7 @@ args = {
         u'lulc': False,
         u'mode': u'initial',
         u'osm': False,
-        u'workspace_dir': u'/appdata/data/test',
+        u'workspace_dir': u'/appdata/test',
 }
 
 if __name__ == '__main__':
