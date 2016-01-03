@@ -8,7 +8,7 @@ InVEST version: 3.2.0
 from natcap.invest.recreation import recreation_client
 
 args = {
-        u'aoi_file_name': u'/usr/local/natcap/natcap/data/edinburghAOI_UTM_new.shp',
+        u'aoi_file_name': u'/usr/local/natcap/data/edinburghAOI_UTM_new.shp',
         u'cell_size': 3000.0,
         u'comments': u'',
         u'data_dir': u'',
@@ -20,7 +20,7 @@ args = {
         u'lulc': False,
         u'mode': u'initial',
         u'osm': False,
-        u'workspace_dir': u'/usr/local/natcap/natcap/test',
+        u'workspace_dir': u'/usr/local/natcap/test',
 }
 
 if __name__ == '__main__':
